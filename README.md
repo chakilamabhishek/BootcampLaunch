@@ -1,5 +1,5 @@
 ____
-#Async/Await**
+#Async/Await
 ____
 
 To work with promises more comfortably we use Async/await.
