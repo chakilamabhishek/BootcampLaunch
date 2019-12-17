@@ -28,7 +28,7 @@ Async functions pause at each await `expression`.
 An await acts on an expression. When the expression is a promise, the evaluation of the async function halts until the promise is resolved
 
 ex:
-> ```
+> ```js
 > async function f() {
 > 
 >   let promise = new Promise((resolve, reject) => {
@@ -65,7 +65,7 @@ If you try to use await in non-async function,there would be a syntax error.
 
 **Async/Await:**
 In the following example, we first declare a function that returns a promise that resolves to a value of 🤡 after 2 seconds. We then declare an async function and await for the promise to resolve before logging the message to the console:
-> ```
+> ```js
 > function scaryClown() {
 >   return new Promise(resolve => {
 >     setTimeout(() => {
