@@ -1,10 +1,10 @@
 ____
-**Async/Await**
+#Async/Await**
 ____
 
 To work with promises more comfortably we use Async/await.
 
-#**ASYNC functions**
+**ASYNC functions**
 
 Let’s start with the async keyword. It can be placed before a function, like this:
 
